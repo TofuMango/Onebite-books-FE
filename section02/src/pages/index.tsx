@@ -5,8 +5,8 @@ import style from './index.module.css'
 export default function Home() {
   return (
     <>
-      {/* return <h1 style={{ color: "red" }}>인덱스</h1>; */}
       {/* 인라인 스타일을 지정해줄수는 있으나, 가독성을 해침 */}
+      {/* return <h1 style={{ color: "red" }}>인덱스</h1>; */}
       <h1 className={style.h1}>인덱스</h1>
       <h2 className={style.h2}>H2</h2>
     </>
