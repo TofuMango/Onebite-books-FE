@@ -6,12 +6,14 @@ import { ReactNode } from 'react';
 
 export default function Home() {
   return (
-    <>
-      {/* 인라인 스타일을 지정해줄수는 있으나, 가독성을 해침 */}
-      {/* return <h1 style={{ color: "red" }}>인덱스</h1>; */}
-      <h1 className={style.h1}>인덱스</h1>
-      <h2 className={style.h2}>H2</h2>
-    </>
+    <div className={style.container}>
+      <section>
+        <h3>지금 추천하는 도서</h3>
+      </section>
+      <section>
+        <h3>등록된 모든 도서</h3>
+      </section>
+    </div>
   );
 }
 
